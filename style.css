@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(68, 7, 126);
+    color: white;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+nav {
+    width:auto;
+    height: 6rem;
+    margin: 10px;
+    padding: auto;
+    background-color: rgb(48, 4, 88);
+    border-radius: 10px;
+
+}
+
+nav ul li {
+    display:inline;
+    float: right;
+    padding: 1rem;
+   }
+nav ul li a {
+    font-size: 1rem;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+   color: white;
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:aqua;
+    transition: 0.2s;
+}
+
+.logo {
+    margin: 10px;
+    padding: 1 rem;
+    font-family: Impact, sans-serif;
+    color: white;
+    
+}
+
+flex {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    padding: 1rem;
+    justify-content: space-around;
+   align-items: flex-start; 
+   gap: 2rem;
+}
+
+
+.presence p {
+   text-align: justify;
+   
+}
+
+.connect {
+    background-color: transparent;
+    height: 30px;
+    width: 150px;
+    margin: 0%;
+    padding: auto;
+    border-color: white;
+    border-radius: 10px;
+   
+}
+
+.connect a {
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+   
+}
+
+.connect a:hover {
+    color:rgb(48, 4, 88);
+}
+
+.connect:hover{
+    background: white;
+    transform: scale(1.1);
+    
+}
+
+section {
+    margin: 10px;
+    padding: auto;
+    display: block;
+    text-align:justify;
+
+
+}
+
+
+.resume {
+    background-color: transparent;
+    height: 30px;
+    width: 150px;
+    margin: 0%;
+    margin-top: 1%;
+    padding: auto;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+.resume a {
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: justify; 
+}
+    .resume a:hover {
+        color:rgb(48, 4, 88);
+    }
+    
+    .resume:hover{
+        background: white;
+        transform: scale(1.1);
+        
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+   .skillsets li {
+    margin:auto;
+    padding: auto;
+    display:block;
+       }
+
+
+
+    footer {
+        background-color: rgb(48, 4, 88);
+        margin: auto;
+        padding: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .col h3  {
+        margin-top: 10px;
+        padding: 1rem;
+        margin-left: 45%;
+
+    }
+
+    .col h2  {
+        margin-top: 10px;
+        padding: 1rem;
+        margin-left: 45%;
+
+    }
+    
+    .col p  {
+      margin: 2%;
+      padding: 1 rem;
+      margin-left: 4%;
+
+    }
+    .fab {
+        display: inline-block;
+       margin-left: 12%;
+       margin-right: 10%;
+        padding: auto;
+        font-size: 1.5rem;
+        color: white;
+           }
+
+           .fab:hover {
+            color: aqua;
+            transition: 1sec;
+            transform: scale(1.5);
+           }
+
+   
+     hr {
+        margin-right: 2%;
+        margin-left: 2%;
+        padding: 1 rem;
+     }
+.copyright {
+    margin-left: 45%;
+    padding: 1 rem;
+    margin-top: 1%;
+   }
